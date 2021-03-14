@@ -154,3 +154,8 @@ EMAIL_PORT = 465
 EMAIL_HOST_USER = 'cccenginccc@gmail.com'
 EMAIL_HOST_PASSWORD = 'karakule_@.,123'
 EMAIL_USE_SSL = True
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
