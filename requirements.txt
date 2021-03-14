@@ -2,8 +2,4 @@ Django==2.2.13
 Pillow==6.2.0
 psycopg2==2.7.5
 psycopg2-binary==2.7.5
-<<<<<<< HEAD
 pytz==2018.5
-=======
-pytz==2018.5
->>>>>>> b25ac7430d7399a551c30967603e0fe71d8a0505
